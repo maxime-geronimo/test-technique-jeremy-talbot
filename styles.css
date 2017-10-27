@@ -1,0 +1,136 @@
+﻿/* ***********  NAVBAR  ************* */
+	div.navbar-collapse {
+    float: right;
+	vertical-align:middle;
+  }
+  div.container-fluid{
+  	  height: 60px;
+  }
+  .navbar{
+  	  height: 60px;
+	  background-color: #000 !important;
+	  border: 0 !important;
+	  border-radius: 0 !important;
+	  margin: 0 !important;
+  }
+  .navbar-brand{
+  	  color: #fff !important;
+  }
+   .menu {
+    display:inline;
+    margin:21px 15px;
+    color:#ffffff;
+  }
+  ul li {
+    display:inline;
+    margin:21px 15px;
+  }
+  footer {
+  height: 60px;
+  margin-top: 2%;
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  }
+  footer a{
+  	  color: grey;
+	  line-height: 5em;
+	  font-size: 0.7em;
+  }
+
+ /*  ***************  HEADER  *************** */
+  header{
+    position: relative;
+	max-height: 576px;
+  }
+  h1{
+    position:absolute;
+	top: 30%;
+    color:#fff !important;
+	font-weight: bold !important;
+    text-align: center;
+    width: 100%;
+  }
+ header img{
+  	  padding-bottom: 5%;
+  }
+  
+  /*  ***************** NEWS  ****************** */
+  .latest{
+  	  text-align: center;
+	  padding-bottom:5%;
+	  font-size: 2.5rem;
+	  font-weight: bold;
+  }
+  div.news{
+	padding: 1%;
+  }
+  img{
+  	  width: 100%;
+  }
+ 
+  .text{
+	text-align: center;
+  }
+  .title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+  }
+  .likes{
+	text-align: center;
+	font-size:0.8em;
+	color: grey;
+  }
+  .comments{
+	text-align: center;
+	font-size:0.8em;
+	color: grey;
+  }
+
+  /* *********************  RESPONSIVE ****************** */
+  @media (max-width: 299px){
+	h1{
+	font-size: 1em !important;
+	top: 10%;
+  }
+  .col-4, .col-6, .col-12{
+  	  min-width: 100%;
+		margin: 0 auto;
+  }
+  }
+  @media (max-width: 599px){
+  .col-4, .col-6, .col-12{
+  	  min-width: 100%;
+		margin: 0 auto;
+  }
+  h1{
+    position:absolute;
+	top: 10%;
+    color:#ffffff;
+    text-align: center;
+    width: 100%;
+	font-size: 2em !important;
+  }
+ }
+
+  @media (min-width: 600px){
+.col-1{width:8.33%; float: left;}
+.col-2{width:16.66%; float: left;}
+.col-3{width:24.99%; float: left;}
+.col-4{width:33.32%; float: left;}
+.col-5{width:41.65%; float: left;}
+.col-6{width:49.98%; float: left;}
+.col-7{width:58.31%; float: left;}
+.col-8{width:66.64%; float: left;}
+.col-9{width:74.97%; float: left;}
+.col-10{width:83.3%; float: left;}
+.col-11{width:91.63%; float: left;}
+.col-12{width:100%; float: left;}
+	header{
+		top: -34px;
+	}	
+}
+
+.clear{
+    clear: both;
+}
